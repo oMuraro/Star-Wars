@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url(fundo.png);
+}
+
+/* li {
+    color: #ffffff;
+    display: inline;    
+} */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(12, 12, 12);
+    border: 2px solid #F1E03F;
+    position: -webkit-sticky;
+    position: sticky;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  li {
+    float: left;
+    font-size: 27px;    
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+.personagemMain {
+    display: flex;
+    margin-left: 150px;
+    margin-top: 120px;
+    
+}
+
+.personagem {
+    border: 7px solid #ffffff;
+    border-radius: 30px;
+    width: 28vw;
+    height: 60vh;
+}
+
+.mainTitles {
+    color: #ffffff;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: 55px;
+}
+
+.conteudo {
+    height: 20vh;
+    width: 30vw;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.mainTexts {
+    color: #ffffff;
+    margin-left: 70px;
+    font-size: 25px;
+}
