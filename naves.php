@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <title>Personagens</title>
+    <title>Naves</title>
 </head>
 <body>
 <?php
-        $url = "https://swapi.dev/api/people";
+        $url = "https://swapi.dev/api/starships";
         $ch = curl_init($url);
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -22,15 +22,17 @@
         echo "<div class='logo'>";
         echo "<img src='imagens/logo.png'>";
         echo "</div>";
-        foreach($resultado->results as $ator) {
+        foreach($resultado->results as $nave) {
             echo "<div class='showPersonagem'>";
             echo "<div class='alignPersonagem'>";
-            echo "<span class='personagemAPI'> Nome: " . $ator->name . "</span><br><br>";
-            echo "<span class='personagemAPI'> Altura: " . $ator->height . " cm </span><br><br>";
-            echo "<span class='personagemAPI'> Cor do Cabelo: " . $ator->hair_color . "</span><br><br>";
+            echo "<span class='personagemAPI'> Nome: " . $nave->name . "</span><br><br>";
+            echo "<span class='personagemAPI'> Modelo: " . $nave->model . " cm </span><br><br>";
+            echo "<span class='personagemAPI'> Tamanho: " . $nave->length . "</span><br><br>";
+            echo "<span class='personagemAPI'> Velocidade Máxima: " . $nave->max_atmosphering_speed . "</span><br><br>";
+            echo "<span class='personagemAPI'> Capacidade de Carga: " . $nave->cargo_capacity . "</span><br><br>";
 
             echo "<span class='personagemAPI'> Filmes Participados:  </span><br>";
-            foreach($ator->films as $filme) {
+            foreach($nave->films as $filme) {
                 $url2 = $filme;
                 $ch2 = curl_init($url2);
                 curl_setopt($ch2, CURLOPT_SSL_VERIFYPEER, false);
@@ -40,7 +42,7 @@
                 echo "<span class='personagemAPI'>".$resultadofilme->title."</span><br>";
             }
             echo "</div>";
-            echo "<img class='imgPersonagem' src='imagens/".$ator->name.".jpg'>";
+            echo "<img class='imgPersonagem' src='imagens/".$nave->name.".jpg'>";
             echo "</div>";
             echo "<br><br>";
         }

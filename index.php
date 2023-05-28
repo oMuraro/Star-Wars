@@ -13,11 +13,11 @@
             <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="pessoas.php">Personagens</a></li>
-                <li><a href="#veiculos">Veículos</a></li>
-                <li><a href="#naves">Naves</a></li>
-                <li><a href="#especies">Espécies</a></li>
-                <li><a href="#planestas">Planetas</a></li>
-                <li><a href="#filmes">Filmes</a></li>
+                <li><a href="veiculos.php">Veículos</a></li>
+                <li><a href="naves.php">Naves</a></li>
+                <li><a href="especies.php">Espécies</a></li>
+                <li><a href="planetas.php">Planetas</a></li>
+                <li><a href="filmes.php">Filmes</a></li>
             </ul>
         </div>
 
@@ -27,7 +27,7 @@
                 <div class="conteudo">
                     <h1 class="mainTitles">Personagens</h1>
                     <p class="textLeft">Conheça os personagens mais iconicos e lendários de todos os filmes da franquia</p>
-                    <a href="#personagem"><button class="informationLeft"> Saiba Mais </button> </a>
+                    <a href="pessoas.php"><button class="informationLeft"> Saiba Mais </button> </a>
                 </div>
             </div>
 
@@ -35,7 +35,7 @@
                 <div class="conteudo">
                     <h1 class="mainTitles">Espécies</h1>
                     <p class="textRight">Conheça os personagens mais iconicos e lendários de todos os filmes da franquia</p>
-                    <button class="informationLeft"> Saiba Mais </button>
+                    <a href="especies.php"><button class="informationLeft"> Saiba Mais </button></a>
                 </div>
                 <img class="rightBorder" src="especie.jpeg">
             </div>
@@ -45,7 +45,7 @@
                 <div class="conteudo">
                     <h1 class="mainTitles">Naves</h1>
                     <p class="textLeft">Conheça os personagens mais iconicos e lendários de todos os filmes da franquia</p>
-                    <button class="informationLeft"> Saiba Mais </button>
+                    <a href="naves.php"> <button class="informationLeft"> Saiba Mais </button> </a>
                 </div>
             </div>
 
@@ -53,7 +53,7 @@
                 <div class="conteudo">
                     <h1 class="mainTitles">Filmes</h1>
                     <p class="textRight">Conheça os personagens mais iconicos e lendários de todos os filmes da franquia</p>
-                    <button class="informationLeft"> Saiba Mais </button>
+                    <a href="filmes.php"> <button class="informationLeft"> Saiba Mais </button> </a>
                 </div>
                 <img class="rightBorder" src="filme.jpg">
             </div>
