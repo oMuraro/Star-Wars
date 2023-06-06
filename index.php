@@ -21,6 +21,11 @@
             </ul>
         </div>
 
+        <center>
+        <br><br><br><br><br><br><br><br><br><div class="logo" style="width: 500px; height: 100px;">
+            <img src = "imagens/logo.png" style="width:90%;">
+        </div>
+        </center>
         <div class="main">
             <div class="leftMargin">
                 <img class="leftBorder" src="personagem.png">
@@ -34,7 +39,7 @@
             <div class="rightMargin">
                 <div class="conteudo">
                     <h1 class="mainTitles">Espécies</h1>
-                    <p class="textRight">Conheça os personagens mais iconicos e lendários de todos os filmes da franquia</p>
+                    <p class="textRight">Diferentes espécies de tipos inimagináveis </p>
                     <a href="especies.php"><button class="informationLeft"> Saiba Mais </button></a>
                 </div>
                 <img class="rightBorder" src="especie.jpeg">
@@ -44,7 +49,7 @@
                 <img class="rightBorder" src="nave.jpg">
                 <div class="conteudo">
                     <h1 class="mainTitles">Naves</h1>
-                    <p class="textLeft">Conheça os personagens mais iconicos e lendários de todos os filmes da franquia</p>
+                    <p class="textLeft">Naves dos mais curiosos modelos e preços</p>
                     <a href="naves.php"> <button class="informationLeft"> Saiba Mais </button> </a>
                 </div>
             </div>
@@ -52,10 +57,28 @@
             <div class="rightMargin">
                 <div class="conteudo">
                     <h1 class="mainTitles">Filmes</h1>
-                    <p class="textRight">Conheça os personagens mais iconicos e lendários de todos os filmes da franquia</p>
+                    <p class="textRight">Todos os incríveis filmes da franquia Star Wars</p>
                     <a href="filmes.php"> <button class="informationLeft"> Saiba Mais </button> </a>
                 </div>
                 <img class="rightBorder" src="filme.jpg">
+            </div>
+
+            <div class="leftMargin">
+                <img class="rightBorder" src="imagens/Bespin.jpg">
+                <div class="conteudo">
+                    <h1 class="mainTitles">Planetas</h1>
+                    <p class="textLeft">Planetas de diferentes sistemas solares</p>
+                    <a href="planetas.php"> <button class="informationLeft"> Saiba Mais </button> </a>
+                </div>
+            </div>
+
+            <div class="rightMargin">
+                <div class="conteudo">
+                    <h1 class="mainTitles">Veículos</h1>
+                    <p class="textRight">Veículos dos mais diferentes formatos e utilidades</p>
+                    <a href="veiculos.php"> <button class="informationLeft"> Saiba Mais </button> </a>
+                </div>
+                <img class="rightBorder" src="imagens/Sand Crawler.jpg">
             </div>
 
         </div>
