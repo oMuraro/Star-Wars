@@ -24,6 +24,23 @@ body {
     align-items: center;
 }
 
+.buttonEscolha {
+    width: 200px;
+    height:90px;
+    background-color: black;
+    border: 3px solid  #F1E03F;
+    border-radius: 6px;
+    color: #ffffff;
+    transition: ease-out;
+    transition-duration: 1s;
+}
+
+.buttonEscolha:hover {
+    transform: translateY(-5px);
+    background: none;
+    background-color: #ffffff;
+    color: #000000;
+}
 
 .voltar {
     position: absolute;
@@ -59,10 +76,138 @@ body {
     padding-left: 300px;
 } */
 
+.escolhaAPI {
+    margin-top: 30px;
+    width: 30vw;
+    height: 23vh;
+    border: 6px solid #F1E03F;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.APIescolhida {
+    width: 70vw;
+    height: 80vh;
+    border: 6px solid #F1E03F;
+    border-radius: 15px;
+    margin-top: 20px;
+    display: flex;
+    align-items:  center;
+}
+
+.APIescolhidaObiWan {
+    width: 70vw;
+    height: 110vh;
+    border: 6px solid #F1E03F;
+    border-radius: 15px;
+    margin-top: 20px;
+    display: flex;
+    align-items:  center;
+}
+
+.APIescolhidaMillenium {
+    width: 70vw;
+    height: 110vh;
+    border: 6px solid #F1E03F;
+    border-radius: 15px;
+    margin-top: 20px;
+    display: flex;
+    align-items:  center;
+}
+
+.APIescolhidaPlanetao{
+    width: 70vw;
+    height: 140vh;
+    border: 6px solid #F1E03F;
+    border-radius: 15px;
+    margin-top: 20px;
+    display: flex;
+    align-items:  center;
+}
+
+.APIescolhidaCoruscant {
+    width: 70vw;
+    height: 95vh;
+    border: 6px solid #F1E03F;
+    border-radius: 15px;
+    margin-top: 20px;
+    display: flex;
+    align-items:  center;
+}
+
+.APIescolhidaFilme1 {
+    width: 70vw;
+    height: 350vh;
+    border: 6px solid #F1E03F;
+    border-radius: 15px;
+    margin-top: 20px;
+    display: flex;
+    align-items:  center;
+}
+
+.APIescolhidaFilme2 {
+    width: 70vw;
+    height: 380vh;
+    border: 6px solid #F1E03F;
+    border-radius: 15px;
+    margin-top: 20px;
+    display: flex;
+    align-items:  center;
+}
+
+.APIescolhidaFilme3 {
+    width: 70vw;
+    height: 444vh;
+    border: 6px solid #F1E03F;
+    border-radius: 15px;
+    margin-top: 20px;
+    display: flex;
+    align-items:  center;
+}
+
+.APIescolhidaFilme4 {
+    width: 70vw;
+    height: 540vh;
+    border: 6px solid #F1E03F;
+    border-radius: 15px;
+    margin-top: 20px;
+    display: flex;
+    align-items:  center;
+}
+
+.APIescolhidaFilme5 {
+    width: 70vw;
+    height: 590vh;
+    border: 6px solid #F1E03F;
+    border-radius: 15px;
+    margin-top: 20px;
+    display: flex;
+    align-items:  center;
+}
+
+.APIescolhidaFilme6 {
+    width: 70vw;
+    height: 670vh;
+    border: 6px solid #F1E03F;
+    border-radius: 15px;
+    margin-top: 20px;
+    display: flex;
+    align-items:  center;
+}
+
+.informationAPI {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
 .imgPersonagem {
     width: 20vw;
     height: 50vh;
-    border: 7px solid #000000;
+    border: 7px solid #F1E03F;
     border-radius: 30px;
     background: none;
     margin-left: 300px;
@@ -88,13 +233,20 @@ body {
     align-items: center;
 }
 
-.personagemAPI {
+.tituloAPI {
     color: #ffffff;
     font-size: 30px;
     margin-left: 7px;
     margin-top: 5px;
     background: none;
-    width: 350px;
+}
+
+.textoAPI {
+    color: #ffffff;
+    font-size: 30px;
+    margin-left: 7px;
+    margin-top: 5px;
+    background: none;
 }
 
 ul {
